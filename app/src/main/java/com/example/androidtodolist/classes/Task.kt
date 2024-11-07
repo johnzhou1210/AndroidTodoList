@@ -1,6 +1,6 @@
 package com.example.androidtodolist.classes
 
-class Task(var title: String, var description: String, var completed: Boolean = false, var dueDate: String? = null, var isDone : Boolean = false) {
+class Task(var title: String, var description: String, var completed: Boolean = false, var dueDate: String? = null) {
     val id: Int = nextId++
 
     companion object {

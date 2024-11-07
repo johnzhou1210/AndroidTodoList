@@ -26,9 +26,7 @@ fun TopBar() {
             Text(text = "Todo List", style = MaterialTheme.typography.headlineMedium)
         },
         actions = {
-            IconButton(onClick = { /*TODO*/ }, modifier = Modifier.padding(end = 10.dp)) {
-                Icon(imageVector = Icons.Filled.Edit, contentDescription = "Test")
-            }
+           
         }
     )
 
